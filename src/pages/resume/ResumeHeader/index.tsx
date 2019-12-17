@@ -11,12 +11,12 @@ export default function Header() {
 
   return (
     <>
-      <header>
+      <div>
         <p>Résumé</p>
         <h1 className={styles.title}>{resumeName}</h1>
         <h2 className={styles.label}>{resumeLabel}</h2>
         <Button href={resumeDownload}>Get my full résumé</Button>
-      </header>
+      </div>
 
       <div>
         <ul className={styles.contact}>
