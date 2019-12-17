@@ -7,8 +7,7 @@ ghpages.publish(
     branch: 'master',
     repo: 'https://github.com/hoangcoding/hoangcoding.github.io.git',
   },
-  (err) => {
-    console.log(err);
+  () => {
     console.log('Deploy Complete!')
   }
 )

@@ -19,11 +19,11 @@ export const Header: FunctionComponent<HeaderProps> = ({ hide, minimal, hideName
       <ThemeSwitch/>
       <header className={minimal ? styles.minimal : styles.header}>
         {!hide && (
-          <>
+          <div>
             <LogoUnit minimal={minimal} hideName={hideName} />
             <Networks hide={minimal} />
             <Availability hide={minimal && !availability.status} />
-          </>
+          </div>
         )}
       </header>
     </>

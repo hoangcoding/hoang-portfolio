@@ -15,7 +15,7 @@ export default function Resume() {
       <SEO title="Hoang's Résumé"/>
 
       <div className={styles.resume}>
-        <Header/>
+        <Header />
 
         <div>
           <h3 className={styles.subTitle}>
