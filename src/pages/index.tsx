@@ -5,7 +5,7 @@ import { SEO } from "../components/atoms/SEO"
 function Home({ pageContext }: { pageContext: any }) {
   return (
     <>
-      <SEO />
+      <SEO title="Home"/>
       <Repositories repos={pageContext.repos} />
     </>
   )
