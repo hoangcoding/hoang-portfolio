@@ -14,7 +14,7 @@ export default function Resume() {
     <>
       <SEO title="Hoang's Résumé"/>
 
-      <div className={styles.resume}>
+      <section className={styles.resume}>
         <Header />
 
         <div>
@@ -53,7 +53,7 @@ export default function Resume() {
             <ResumeItem key={shortid.generate()} eduPlace={eduPlace}/>
           ))}
         </div>
-      </div>
+      </section>
     </>
   )
 }
